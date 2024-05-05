@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi portfolio - ¡Bienvenidos!</title>
+    <link rel="icon" href="img/icono-modified.png">
+</head>
+<body>
+    <header class="profile container">
+        <div class="flex-container">
+            <nav class="navbar">
+                <ul class="nav__links">
+                    <li>
+                        <a href="#about-me">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__photo-border">
+                    <div class="profile__photo">
+                        <img src="img/perfil.png" alt="Una foto de perfil...">
+                    </div>
+                </div>
+                
+
+                <h2 class="profile__name">Franco Formía</h2>
+                <h3 class="profile__profession">Estudiante Universitario</h3>
+
+                <ul class="profile__social">
+                    <li>
+                        <a href="#">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/FrancoSimonFormia" target="_blank">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="profile__about-me" id="about-me">
+                <p>¡Hola, bienvenidos! </p>
+                <br>
+                <p>
+                    Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN General Pacheco.
+                    Me encantan las mascotas (Actualmente tengo perros y gato), escuchar música y ver películas.
+                </p>
+                <br>  
+                <p>
+                    He encontrado un basto mundo de curiosidades y asombros desde que descubrí el mundo de la programación. 
+                    En mis tiempos libres busco aprender e incursionar en tecnologías y herramientas nuevas.
+                    Estoy en constante búsqueda de desafíos que enriquezcan mis conocimientos y habilidades, y poder plasmar
+                    todo lo aprendido para dar soluciones a problemas de la realidad.
+                </p>
+                <br>
+                <p>
+                    Muchas gracias por pasarse en este espacio personal, que espero siga creciendo con el paso del tiempo.
+                </p>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="cv.txt" target="_blank" class="button">
+                    Descargar CV <i class="ri-download-line"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+        <!--=============== PROYECTOS ===============-->
+        <div class="projects__content grid" id="projects">
+            <article class="projects__card">
+                <img src="img/Encriptador.jpg" alt="Imagen proyecto 1" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle" id="project-encriptador">Web</span>
+                        <h3 class="projects__title" id="project-encriptador">Challenge Encriptador</h3>
+                        <a href="https://francosimonformia.github.io/Challenge-Encriptador/" target="_blank" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="img/Meme-generator.jpg" alt="Imagen proyecto 2" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle">Web</span>
+                        <h3 class="projects__title">Challenge Meme Generator</h3>
+                        <a href="https://francosimonformia.github.io/Meme-Generator/" target="_blank" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="img/Canvas.png" alt="Imagen proyecto 3" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle" id="project-canvas">Web</span>
+                        <h3 class="projects__title" id="project-canvas">Challenge Canvas</h3>
+                        <a href="https://francosimonformia.github.io/Canvas-Challenge/" target="_blank" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="img/Gestion-carreras.png" alt="Imagen proyecto 4" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle" id="project-carreras">C++</span>
+                        <h3 class="projects__title" id="project-carreras">Sistema de Gestión de carreras universitarias</h3>
+                        <a href="https://github.com/FrancoSimonFormia/TP-Laboratorio-Programacion-II" target="_blank" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="img/Gestion-articulos.png" alt="Imagen proyecto 5" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle" id="project-articulos">C# .NET</span>
+                        <h3 class="projects__title" id="project-articulos">Sistema de Gestión de Artículos</h3>
+                        <a href="https://github.com/FrancoSimonFormia/TP-Gestion-Articulos" target="_blank" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+                    
+            <article class="projects__card">
+                <img src="img/proyecto6.jpg" alt="Imagen proyecto 6" class="projects__img">
+
+                <div class="projects__modal">
+                    <div>
+                        <span class="projects__subtitle">C# ASP .NET</span>
+                        <h3 class="projects__title">Próximamente... ¡Carrito de compras!</h3>
+                        <a href="" class="projects__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!--=============== HABILIDADES ===============-->
+        <div class="skills__content grid" id="skills">
+            <div class="skills__area">
+                <h3 class="skills__title">
+                    Frontend Developer
+                </h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">HTML</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">CSS</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">JavaScript</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__group">
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <span class="skills__level">Por aprender...</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">ASP .NET</h3>
+                                <span class="skills__level">Por aprender...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills__area">
+                <h3 class="skills__title">
+                    Backend Developer
+                </h3>
+
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">C++</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">T-SQL</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">C#</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">Git</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <div>
+                                <h3 class="skills__name">.NET Framework</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="contact">
+        <div class="contact__title">
+            <span>Contacto</span>
+        </div>
+        <form action="">
+            <div class="contact__input">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Nombre">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Mail">
+                <br>
+                <label for="mensaje">Asunto</label>
+                <textarea name="mensaje" cols="38" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
+                <button class="contact__button" onclick="console.log('Hola mundo!')">Enviar</button>
+                <br>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            2024. Proyecto para Laboratorio de Programación III
+        </span>
+    </footer>
+</body>
+</html>
